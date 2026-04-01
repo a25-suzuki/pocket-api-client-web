@@ -1,18 +1,18 @@
 #page title
-page_title: バドミントン ペア決め＆コート割り
+page_title: Pocket API Client - モバイルAPIテストツール
 
 # App Info
 ios_app_id: 6746084006
 ios_app_country: jp
 
-appstore_link: # Automatically populates if not set and if iOS app ID is set. Otherwise enter manually.
-playstore_link: # Enter Google Play Store URL.
+appstore_link:
+playstore_link:
 presskit_download_link:
 
-app_icon: # Automatically populates if not set and if iOS app ID is set.
-app_name: # Automatically populates if not set and if iOS app ID is set.
-app_price: # Automatically populates if not set and if iOS app ID is set.
-app_description: ペア決め・コート割りをかんたん自動化！バドミントン練習をもっとスムーズに
+app_icon:
+app_name: Pocket API Client
+app_price:
+app_description: Postmanライクな操作感で、REST APIのテスト・デバッグがスマホからいつでもどこでも。
 
 enable_smart_app_banner: true
 
@@ -30,29 +30,29 @@ mastodon_link:
 
 # Feature List
 features:
-  - title: かんたんペア決め
-    description: 参加者を入力するだけで、ランダムかつ公平なペアを自動生成。面倒なくじ引きが不要に。
-    fontawesome_icon_name: random
+  - title: HTTPリクエスト送信
+    description: GET / POST / PUT / DELETE などの主要メソッドに対応。ヘッダー・クエリパラメータ・ボディを細かく設定してリクエストを送信できます。
+    fontawesome_icon_name: paper-plane
 
-  - title: コート割り自動化
-    description: 複数コートへの組み合わせ割り当てをワンタップで完了。練習開始までの時間を短縮。
-    fontawesome_icon_name: th-large
+  - title: レスポンス表示
+    description: ステータスコード・レスポンスタイム・ボディをリアルタイムで確認。JSONのシンタックスハイライト表示にも対応。
+    fontawesome_icon_name: code
 
-  - title: 参加者管理
-    description: メンバーリストを保存・編集できるので、毎回入力する手間がありません。
-    fontawesome_icon_name: users
+  - title: 認証サポート
+    description: Bearer Token・Basic認証・API Keyなど主要な認証方式に対応。セキュアなAPIへのアクセスもスムーズに。
+    fontawesome_icon_name: lock
 
-  - title: 履歴機能
-    description: 過去のペアリング履歴を保存。同じ組み合わせを避けるための参考にも活用できます。
+  - title: コレクション管理
+    description: よく使うリクエストをコレクションとして保存・整理。チームや用途別にグループ化して管理できます。
+    fontawesome_icon_name: folder-open
+
+  - title: 環境変数
+    description: 開発・ステージング・本番など複数の環境を切り替えて使用可能。URLやトークンを変数化して効率よく管理。
+    fontawesome_icon_name: sliders-h
+
+  - title: リクエスト履歴
+    description: 過去に送信したリクエストを自動保存。いつでも呼び出して再利用・検証が可能です。
     fontawesome_icon_name: history
-
-  - title: シンプルなUI
-    description: 直感的で見やすいデザインを採用。年齢を問わず誰でも迷わず操作できます。
-    fontawesome_icon_name: magic
-
-  - title: Coming Soon...
-    description: さらなる機能が続々追加予定です。次回のアップデートをお楽しみに！
-    fontawesome_icon_name: arrow-alt-circle-down
 
   - title: Coming Soon...
     description: さらなる機能が続々追加予定です。次回のアップデートをお楽しみに！
@@ -67,19 +67,19 @@ features:
     fontawesome_icon_name: arrow-alt-circle-down
 
 # Theme Settings
-topbar_color: "#1a6e2e"
+topbar_color: "#FF6C37"         # Postmanのブランドカラー
 topbar_transparency: 0.1
 topbar_title_color: "#ffffff"
 
 cover_image: assets/headerimage.png
-cover_overlay_color: "#1a6e2e"
+cover_overlay_color: "#FF6C37"
 cover_overlay_transparency: 0.7
 
 device_color: black
 
 body_background_color: "#ffffff"
 
-link_color: "#1a6e2e"
+link_color: "#FF6C37"
 
 app_title_color: "#ffffff"
 app_price_color: "#ffffff"
@@ -88,8 +88,8 @@ app_description_color: "#ffffff"
 feature_title_color: "#000000"
 feature_text_color: "#666666"
 
-feature_icons_foreground_color: "#1a6e2e"
-feature_icons_background_color: "#e6e6e6"
+feature_icons_foreground_color: "#FF6C37"
+feature_icons_background_color: "#f0f0f0"
 
 social_icons_foreground_color: "#666666"
 social_icons_background_color: "#e6e6e6"
